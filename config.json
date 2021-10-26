@@ -1,0 +1,48 @@
+{
+    "ECG_suffix": "ECG",
+    "augment": false,
+    "background_folder": "val2017/*.jpg",
+    "batch_size": 1,
+    "buffer_size": 64,
+    "cpu_cores": 12,
+    "create_new_visualisation_sample": false,
+    "deepspeed": false,
+    "dim": 1024,
+    "encoder_weights": "imagenet",
+    "epochs": 1,
+    "folder": "/media/rbrisk/storage01/ecg_data",
+    "gpus": 2,
+    "impedance": 2.0,
+    "label_suffix": "label",
+    "model": "se_resnet152",
+    "model_folder": "temp_models",
+    "noise_multiplier": 3.0,
+    "one_dimensional" : false,
+    "p_multiplier": 0.3,
+    "predict_mask_for_visualisation": true,
+    "ptb_diagnoses" : [
+        "SR",
+        "AFIB"
+    ],
+    "ptb_folder": "/media/rbrisk/storage01/ptb",
+    "ptb_superclasses" : false,
+    "ptb_test_folder": "/media/rbrisk/storage01/ptb_test",
+    "ptb_val_folder": "/media/rbrisk/storage01/ptb_val",
+    "random_seed": 10,
+    "rates": [
+        40,
+        120
+    ],
+    "results_folder": "checker/SR_AF_2D",
+    "rhythms": [
+        "sr",
+        "af"
+    ],
+    "save_dim": 1024,
+    "t_multiplier": 2.0,
+    "generation_cycles": 2000,
+    "use_background": false,
+    "use_half": false,
+    "use_multiprocessing": true,
+    "waves_only": true
+}

@@ -1,0 +1,14 @@
+numpy
+segmentation-models
+scikit-image
+scipy
+opencv-python
+Pillow
+imutils
+matplotlib
+tensorflow
+keras-segmentation
+wfdb
+albumentations
+segmentation-models-pytorch
+monai
